@@ -1,0 +1,522 @@
+[Running] python -u "d:\KULIAH\SEMESTER6\DATA MINING\kmeans_project\kmeans.py"
+=== Algoritma K-Means Clustering Dimulai ===
+Jumlah titik data: 200
+Jumlah cluster (k): 3
+Iterasi maksimum: 100
+
+Centroid awal: [[1.0, 15.0, 39.0], [2.0, 15.0, 81.0], [3.0, 16.0, 6.0]]
+
+==================================================
+ITERASI 1
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[1.0, 15.0, 39.0], [2.0, 15.0, 81.0], [3.0, 16.0, 6.0]]
+Titik [15.0, 39.0]: jarak = [0.0, 1.0, 2.24], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [1.0, 0.0, 1.41], ditugaskan ke cluster 1
+Titik [16.0, 6.0]: jarak = [2.24, 1.41, 0.0], ditugaskan ke cluster 2
+Titik [16.0, 77.0]: jarak = [3.16, 2.24, 1.0], ditugaskan ke cluster 2
+Titik [17.0, 40.0]: jarak = [4.47, 3.61, 2.24], ditugaskan ke cluster 2
+Titik [17.0, 76.0]: jarak = [5.39, 4.47, 3.16], ditugaskan ke cluster 2
+Titik [18.0, 6.0]: jarak = [6.71, 5.83, 4.47], ditugaskan ke cluster 2
+Titik [18.0, 94.0]: jarak = [7.62, 6.71, 5.39], ditugaskan ke cluster 2
+Titik [19.0, 3.0]: jarak = [8.94, 8.06, 6.71], ditugaskan ke cluster 2
+Titik [19.0, 72.0]: jarak = [9.85, 8.94, 7.62], ditugaskan ke cluster 2
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 1 titik, centroid = [1.0, 15.0]
+  Titik: [[15.0, 39.0]]
+Cluster 1: 1 titik, centroid = [2.0, 15.0]
+  Titik: [[15.0, 81.0]]
+Cluster 2: 198 titik, centroid = [101.5, 61.02]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [1.0, 15.0] -> [1.0, 15.0]
+Cluster 1: [2.0, 15.0] -> [2.0, 15.0]
+Cluster 2: [3.0, 16.0] -> [101.5, 61.0202]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 2
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[1.0, 15.0], [2.0, 15.0], [101.5, 61.02020202020202]]
+Titik [15.0, 39.0]: jarak = [0.0, 1.0, 110.54], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [1.0, 0.0, 109.63], ditugaskan ke cluster 1
+Titik [16.0, 6.0]: jarak = [2.24, 1.41, 108.3], ditugaskan ke cluster 1
+Titik [16.0, 77.0]: jarak = [3.16, 2.24, 107.39], ditugaskan ke cluster 1
+Titik [17.0, 40.0]: jarak = [4.47, 3.61, 106.07], ditugaskan ke cluster 1
+Titik [17.0, 76.0]: jarak = [5.39, 4.47, 105.16], ditugaskan ke cluster 1
+Titik [18.0, 6.0]: jarak = [6.71, 5.83, 103.83], ditugaskan ke cluster 1
+Titik [18.0, 94.0]: jarak = [7.62, 6.71, 102.92], ditugaskan ke cluster 1
+Titik [19.0, 3.0]: jarak = [8.94, 8.06, 101.6], ditugaskan ke cluster 1
+Titik [19.0, 72.0]: jarak = [9.85, 8.94, 100.69], ditugaskan ke cluster 1
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 1 titik, centroid = [1.0, 15.0]
+  Titik: [[15.0, 39.0]]
+Cluster 1: 49 titik, centroid = [26.0, 27.65]
+Cluster 2: 150 titik, centroid = [125.5, 71.61]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [1.0, 15.0] -> [1.0, 15.0]
+Cluster 1: [2.0, 15.0] -> [26.0, 27.6531]
+Cluster 2: [101.5, 61.0202] -> [125.5, 71.6133]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 3
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[1.0, 15.0], [26.0, 27.653061224489797], [125.5, 71.61333333333333]]
+Titik [15.0, 39.0]: jarak = [0.0, 28.02, 136.77], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [1.0, 27.13, 135.86], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [2.24, 25.78, 134.53], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [3.16, 24.9, 133.62], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [4.47, 23.55, 132.3], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [5.39, 22.66, 131.39], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [6.71, 21.31, 130.06], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [7.62, 20.43, 129.15], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [8.94, 19.08, 127.83], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [9.85, 18.19, 126.92], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 14 titik, centroid = [7.5, 17.71]
+Cluster 1: 60 titik, centroid = [44.5, 37.17]
+Cluster 2: 126 titik, centroid = [137.5, 76.46]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [1.0, 15.0] -> [7.5, 17.7143]
+Cluster 1: [26.0, 27.6531] -> [44.5, 37.1667]
+Cluster 2: [125.5, 71.6133] -> [137.5, 76.4603]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 4
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[7.5, 17.714285714285715], [44.5, 37.166666666666664], [137.5, 76.46031746031746]]
+Titik [15.0, 39.0]: jarak = [7.04, 48.82, 149.7], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [6.13, 47.93, 148.79], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [4.82, 46.59, 147.46], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [3.9, 45.7, 146.55], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [2.6, 44.35, 145.23], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [1.66, 43.46, 144.32], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [0.58, 42.11, 143.0], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [0.58, 41.23, 142.08], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [1.98, 39.88, 140.76], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [2.81, 38.99, 139.85], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 25 titik, centroid = [13.0, 20.08]
+Cluster 1: 65 titik, centroid = [58.0, 43.91]
+Cluster 2: 110 titik, centroid = [145.5, 79.6]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [7.5, 17.7143] -> [13.0, 20.08]
+Cluster 1: [44.5, 37.1667] -> [58.0, 43.9077]
+Cluster 2: [137.5, 76.4603] -> [145.5, 79.6]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 5
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[13.0, 20.08], [58.0, 43.90769230769231], [145.5, 79.6]]
+Titik [15.0, 39.0]: jarak = [13.03, 63.91, 158.28], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [12.12, 63.02, 157.37], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [10.8, 61.68, 156.05], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [9.88, 60.79, 155.14], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [8.57, 59.44, 153.81], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [7.65, 58.55, 152.9], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [6.35, 57.2, 151.58], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [5.42, 56.31, 150.67], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [4.14, 54.97, 149.35], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [3.19, 54.08, 148.43], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 34 titik, centroid = [17.5, 22.65]
+Cluster 1: 67 titik, centroid = [68.0, 48.48]
+Cluster 2: 99 titik, centroid = [151.0, 81.76]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [13.0, 20.08] -> [17.5, 22.6471]
+Cluster 1: [58.0, 43.9077] -> [68.0, 48.4776]
+Cluster 2: [145.5, 79.6] -> [151.0, 81.7576]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 6
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[17.5, 22.647058823529413], [68.0, 48.47761194029851], [151.0, 81.75757575757575]]
+Titik [15.0, 39.0]: jarak = [18.19, 74.9, 164.18], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [17.28, 74.01, 163.27], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [15.95, 72.66, 161.95], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [15.05, 71.77, 161.04], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [13.72, 70.43, 159.72], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [12.81, 69.53, 158.8], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [11.48, 68.19, 157.48], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [10.58, 67.3, 156.57], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [9.25, 65.95, 155.25], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [8.34, 65.06, 154.34], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 41 titik, centroid = [21.0, 24.78]
+Cluster 1: 69 titik, centroid = [76.0, 51.65]
+Cluster 2: 90 titik, centroid = [155.5, 83.69]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [17.5, 22.6471] -> [21.0, 24.7805]
+Cluster 1: [68.0, 48.4776] -> [76.0, 51.6522]
+Cluster 2: [151.0, 81.7576] -> [155.5, 83.6889]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 7
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[21.0, 24.78048780487805], [76.0, 51.65217391304348], [155.5, 83.68888888888888]]
+Titik [15.0, 39.0]: jarak = [22.26, 83.48, 169.08], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [21.37, 82.58, 168.17], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [20.03, 81.24, 166.85], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [19.13, 80.34, 165.93], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [17.79, 79.0, 164.61], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [16.9, 78.11, 163.7], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [15.56, 76.77, 162.38], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [14.66, 75.87, 161.47], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [13.32, 74.53, 160.15], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [12.43, 73.64, 159.23], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 47 titik, centroid = [24.0, 26.6]
+Cluster 1: 69 titik, centroid = [82.0, 53.83]
+Cluster 2: 84 titik, centroid = [158.5, 85.1]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [21.0, 24.7805] -> [24.0, 26.5957]
+Cluster 1: [76.0, 51.6522] -> [82.0, 53.8261]
+Cluster 2: [155.5, 83.6889] -> [158.5, 85.0952]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 8
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[24.0, 26.595744680851062], [82.0, 53.82608695652174], [158.5, 85.0952380952381]]
+Titik [15.0, 39.0]: jarak = [25.76, 89.82, 172.39], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [24.87, 88.92, 171.48], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [23.52, 87.59, 170.16], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [22.63, 86.69, 169.25], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [21.29, 85.35, 167.93], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [20.4, 84.45, 167.01], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [19.05, 83.12, 165.69], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [18.16, 82.22, 164.78], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [16.81, 80.88, 163.46], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [15.93, 79.98, 162.54], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 52 titik, centroid = [26.5, 27.96]
+Cluster 1: 69 titik, centroid = [87.0, 55.67]
+Cluster 2: 79 titik, centroid = [161.0, 86.29]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [24.0, 26.5957] -> [26.5, 27.9615]
+Cluster 1: [82.0, 53.8261] -> [87.0, 55.6667]
+Cluster 2: [158.5, 85.0952] -> [161.0, 86.2911]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 9
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[26.5, 27.96153846153846], [87.0, 55.666666666666664], [161.0, 86.29113924050633]]
+Titik [15.0, 39.0]: jarak = [28.61, 95.13, 175.16], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [27.72, 94.23, 174.25], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [26.37, 92.89, 172.93], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [25.48, 91.99, 172.02], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [24.13, 90.66, 170.7], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [23.25, 89.76, 169.78], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [21.9, 88.42, 168.46], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [21.01, 87.52, 167.55], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [19.66, 86.19, 166.23], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [18.78, 85.28, 165.32], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 56 titik, centroid = [28.5, 29.04]
+Cluster 1: 68 titik, centroid = [90.5, 56.97]
+Cluster 2: 76 titik, centroid = [162.5, 87.0]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [26.5, 27.9615] -> [28.5, 29.0357]
+Cluster 1: [87.0, 55.6667] -> [90.5, 56.9706]
+Cluster 2: [161.0, 86.2911] -> [162.5, 87.0]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 10
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[28.5, 29.035714285714285], [90.5, 56.970588235294116], [162.5, 87.0]]
+Titik [15.0, 39.0]: jarak = [30.87, 98.85, 176.82], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [29.99, 97.95, 175.91], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [28.64, 96.62, 174.59], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [27.75, 95.71, 173.68], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [26.4, 94.38, 172.36], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [25.52, 93.48, 171.44], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [24.17, 92.15, 170.12], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [23.28, 91.24, 169.21], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [21.93, 89.91, 167.89], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [21.05, 89.01, 166.97], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 58 titik, centroid = [29.5, 29.55]
+Cluster 1: 68 titik, centroid = [92.5, 57.74]
+Cluster 2: 74 titik, centroid = [163.5, 87.46]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [28.5, 29.0357] -> [29.5, 29.5517]
+Cluster 1: [90.5, 56.9706] -> [92.5, 57.7353]
+Cluster 2: [162.5, 87.0] -> [163.5, 87.4595]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 11
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[29.5, 29.551724137931036], [92.5, 57.73529411764706], [163.5, 87.45945945945945]]
+Titik [15.0, 39.0]: jarak = [32.0, 100.99, 177.92], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [31.11, 100.08, 177.01], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [29.76, 98.75, 175.69], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [28.88, 97.85, 174.78], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [27.53, 96.52, 173.46], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [26.64, 95.61, 172.54], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [25.29, 94.28, 171.22], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [24.41, 93.38, 170.31], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [23.06, 92.05, 168.99], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [22.17, 91.14, 168.07], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 59 titik, centroid = [30.0, 29.83]
+Cluster 1: 69 titik, centroid = [94.0, 58.29]
+Cluster 2: 72 titik, centroid = [164.5, 87.92]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [29.5, 29.5517] -> [30.0, 29.8305]
+Cluster 1: [92.5, 57.7353] -> [94.0, 58.2899]
+Cluster 2: [163.5, 87.4595] -> [164.5, 87.9167]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 12
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[30.0, 29.83050847457627], [94.0, 58.289855072463766], [164.5, 87.91666666666667]]
+Titik [15.0, 39.0]: jarak = [32.57, 102.58, 179.02], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [31.69, 101.68, 178.11], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [30.34, 100.35, 176.79], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [29.45, 99.44, 175.88], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [28.1, 98.11, 174.55], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [27.21, 97.21, 173.64], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [25.86, 95.88, 172.32], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [24.98, 94.97, 171.41], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [23.63, 93.64, 170.09], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [22.74, 92.73, 169.17], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 61 titik, centroid = [31.0, 30.36]
+Cluster 1: 69 titik, centroid = [96.0, 59.01]
+Cluster 2: 70 titik, centroid = [165.5, 88.4]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [30.0, 29.8305] -> [31.0, 30.3607]
+Cluster 1: [94.0, 58.2899] -> [96.0, 59.0145]
+Cluster 2: [164.5, 87.9167] -> [165.5, 88.4]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 13
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[31.0, 30.360655737704917], [96.0, 59.01449275362319], [165.5, 88.4]]
+Titik [15.0, 39.0]: jarak = [33.7, 104.7, 180.13], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [32.82, 103.79, 179.22], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [31.47, 102.47, 177.9], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [30.58, 101.56, 176.99], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [29.23, 100.23, 175.67], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [28.35, 99.32, 174.75], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [27.0, 98.0, 173.43], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [26.11, 97.09, 172.52], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [24.76, 95.76, 171.2], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [23.88, 94.85, 170.28], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 62 titik, centroid = [31.5, 30.61]
+Cluster 1: 69 titik, centroid = [97.0, 59.38]
+Cluster 2: 69 titik, centroid = [166.0, 88.65]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [31.0, 30.3607] -> [31.5, 30.6129]
+Cluster 1: [96.0, 59.0145] -> [97.0, 59.3768]
+Cluster 2: [165.5, 88.4] -> [166.0, 88.6522]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 14
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[31.5, 30.612903225806452], [97.0, 59.3768115942029], [166.0, 88.65217391304348]]
+Titik [15.0, 39.0]: jarak = [34.26, 105.76, 180.69], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [33.38, 104.85, 179.78], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [32.03, 103.53, 178.46], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [31.14, 102.62, 177.55], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [29.79, 101.29, 176.22], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [28.91, 100.38, 175.31], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [27.56, 99.06, 173.99], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [26.67, 98.15, 173.08], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [25.32, 96.82, 171.76], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [24.44, 95.91, 170.84], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 63 titik, centroid = [32.0, 30.87]
+Cluster 1: 69 titik, centroid = [98.0, 59.72]
+Cluster 2: 68 titik, centroid = [166.5, 88.91]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [31.5, 30.6129] -> [32.0, 30.873]
+Cluster 1: [97.0, 59.3768] -> [98.0, 59.7246]
+Cluster 2: [166.0, 88.6522] -> [166.5, 88.9118]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 15
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[32.0, 30.873015873015873], [98.0, 59.72463768115942], [166.5, 88.91176470588235]]
+Titik [15.0, 39.0]: jarak = [34.83, 106.81, 181.25], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [33.94, 105.91, 180.34], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [32.59, 104.58, 179.02], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [31.7, 103.67, 178.11], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [30.36, 102.34, 176.79], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [29.47, 101.44, 175.87], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [28.12, 100.11, 174.55], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [27.23, 99.2, 173.64], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [25.88, 97.87, 172.32], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [25.0, 96.97, 171.41], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 64 titik, centroid = [32.5, 31.12]
+Cluster 1: 69 titik, centroid = [99.0, 60.09]
+Cluster 2: 67 titik, centroid = [167.0, 89.16]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [32.0, 30.873] -> [32.5, 31.125]
+Cluster 1: [98.0, 59.7246] -> [99.0, 60.087]
+Cluster 2: [166.5, 88.9118] -> [167.0, 89.1642]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 16
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[32.5, 31.125], [99.0, 60.08695652173913], [167.0, 89.16417910447761]]
+Titik [15.0, 39.0]: jarak = [35.39, 107.87, 181.81], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [34.5, 106.97, 180.9], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [33.15, 105.64, 179.58], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [32.26, 104.73, 178.67], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [30.92, 103.4, 177.35], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [30.03, 102.5, 176.43], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [28.68, 101.17, 175.11], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [27.79, 100.26, 174.2], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [26.44, 98.94, 172.88], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [25.56, 98.03, 171.97], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 64 titik, centroid = [32.5, 31.12]
+Cluster 1: 70 titik, centroid = [99.5, 60.26]
+Cluster 2: 66 titik, centroid = [167.5, 89.42]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [32.5, 31.125] -> [32.5, 31.125]
+Cluster 1: [99.0, 60.087] -> [99.5, 60.2571]
+Cluster 2: [167.0, 89.1642] -> [167.5, 89.4242]
+Centroid berubah, melanjutkan...
+
+==================================================
+ITERASI 17
+==================================================
+
+--- Fase Penugasan ---
+Centroid saat ini: [[32.5, 31.125], [99.5, 60.25714285714286], [167.5, 89.42424242424242]]
+Titik [15.0, 39.0]: jarak = [35.39, 108.4, 182.38], ditugaskan ke cluster 0
+Titik [15.0, 81.0]: jarak = [34.5, 107.49, 181.46], ditugaskan ke cluster 0
+Titik [16.0, 6.0]: jarak = [33.15, 106.16, 180.14], ditugaskan ke cluster 0
+Titik [16.0, 77.0]: jarak = [32.26, 105.26, 179.23], ditugaskan ke cluster 0
+Titik [17.0, 40.0]: jarak = [30.92, 103.93, 177.91], ditugaskan ke cluster 0
+Titik [17.0, 76.0]: jarak = [30.03, 103.02, 177.0], ditugaskan ke cluster 0
+Titik [18.0, 6.0]: jarak = [28.68, 101.7, 175.67], ditugaskan ke cluster 0
+Titik [18.0, 94.0]: jarak = [27.79, 100.79, 174.76], ditugaskan ke cluster 0
+Titik [19.0, 3.0]: jarak = [26.44, 99.46, 173.44], ditugaskan ke cluster 0
+Titik [19.0, 72.0]: jarak = [25.56, 98.55, 172.53], ditugaskan ke cluster 0
+
+--- Fase Pembaruan Centroid ---
+Cluster 0: 64 titik, centroid = [32.5, 31.12]
+Cluster 1: 70 titik, centroid = [99.5, 60.26]
+Cluster 2: 66 titik, centroid = [167.5, 89.42]
+
+--- Pemeriksaan Konvergensi ---
+Cluster 0: [32.5, 31.125] -> [32.5, 31.125]
+Cluster 1: [99.5, 60.2571] -> [99.5, 60.2571]
+Cluster 2: [167.5, 89.4242] -> [167.5, 89.4242]
+
+Konvergensi tercapai! Algoritma berhenti pada iterasi 17
+
+==================================================
+HASIL AKHIR
+==================================================
+
+Hasil Clustering Terperinci:
+
+Cluster 0 (Centroid: [32.5, 31.12]):
+Jumlah titik: 64
+  Pelanggan 1: Pendapatan=15.0, Skor=39.0
+  Pelanggan 2: Pendapatan=15.0, Skor=81.0
+  Pelanggan 3: Pendapatan=16.0, Skor=6.0
+  Pelanggan 4: Pendapatan=16.0, Skor=77.0
+  Pelanggan 5: Pendapatan=17.0, Skor=40.0
+  ... dan 59 titik lainnya
+
+Cluster 1 (Centroid: [99.5, 60.26]):
+Jumlah titik: 70
+  Pelanggan 65: Pendapatan=48.0, Skor=51.0
+  Pelanggan 66: Pendapatan=48.0, Skor=59.0
+  Pelanggan 67: Pendapatan=48.0, Skor=50.0
+  Pelanggan 68: Pendapatan=48.0, Skor=48.0
+  Pelanggan 69: Pendapatan=48.0, Skor=59.0
+  ... dan 65 titik lainnya
+
+Cluster 2 (Centroid: [167.5, 89.42]):
+Jumlah titik: 66
+  Pelanggan 135: Pendapatan=73.0, Skor=5.0
+  Pelanggan 136: Pendapatan=73.0, Skor=88.0
+  Pelanggan 137: Pendapatan=73.0, Skor=7.0
+  Pelanggan 138: Pendapatan=73.0, Skor=73.0
+  Pelanggan 139: Pendapatan=74.0, Skor=10.0
+  ... dan 61 titik lainnya
+
+[Done] exited with code=0 in 0.096 seconds
